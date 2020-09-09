@@ -40,7 +40,7 @@ def update(current, game_desc, choice):
     return current
 
 def render(current):
-    print("\n\nYou are at the " + current["name"])
+    print("\n\nChapter: " + current["name"])
     print(format_passage(current["text"]))
     
 
